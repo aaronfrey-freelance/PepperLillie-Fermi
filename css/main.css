@@ -1,22 +1,9 @@
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
+// Base styles
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -28,10 +15,6 @@ html {
   text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
-
 hr {
   display: block;
   height: 1px;
@@ -40,12 +23,6 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
 
 audio,
 canvas,
@@ -56,39 +33,17 @@ video {
   vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
-
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
 textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
+// Custom styles
 .container-fluid {
   padding: 0 25px;
 }
@@ -125,11 +80,11 @@ textarea {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background: url(../img/bg_fade.jpg) no-repeat top center;
 }
 
 header {
-  // background-color: rgba(255, 255, 255, 0.8);
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);
   color: #1c487c;
   font-size: 13px;
   line-height: 1.2;
@@ -159,10 +114,11 @@ header .blue-outline .center-child:last-child {
   font-family: 'Montserrat', sans-serif;
   background-color: transparent;
   border: none;
-  padding-top: 100px;
+  padding-top: 220px;
 }
 
 #listing-override .ln-widgetBox>h2 {
+  margin-left: 35px;
   display: inline-block;
   width: auto;
   color: #f8f9fd;
@@ -180,16 +136,19 @@ header .blue-outline .center-child:last-child {
 }
 
 #listing-override .ln-widgetBox .ln-widgetContent {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0 35px;
 }
 
-#listing-override .ln-widgetBox .ln-widgetContent tr .col1 {
-  width: 33%;
+#listing-override .ln-widgetBox .ln-widgetContent tr .col1,
+#listing-override .ln-widgetBox .ln-widgetContent tr .col2,
+#listing-override .ln-widgetBox .ln-widgetContent tr .col3 {
+  width: 100%;
+  display: block;
 }
 
 #listing-override .ln-widgetBox .ln-widgetContent tr .col2 {
   line-height: 1.2;
-  width: 52%;
 }
 
 #listing-override .ln-widgetBox .ln-widgetContent tr .col2 .name a {
@@ -217,14 +176,10 @@ header .blue-outline .center-child:last-child {
   line-height: 1.2;
 }
 
-#listing-override .ln-widgetBox .ln-widgetContent tr .col3 {
-  width: 15%;
-}
-
 #listing-override .ln-widgetBox .ln-widgetContent tr .col3 .stats {
   max-width: 130px;
   min-height: 130px;
-  margin: 0 auto;
+  float: right;
   background-color: #f26750;
   padding: 35px 15px;
   color: #ffffff;
@@ -237,15 +192,19 @@ header .blue-outline .center-child:last-child {
 }
 
 #listing-override .ln-widgetContent td {
-  border-bottom: 3px solid #1c487c;
-  padding: 32px 32px 32px 0;
+  border-bottom: none;
+  padding: 40px 40px 40px 0;
+}
+
+#listing-override .ln-widgetContent td:last-child {
+  padding: 40px 0;
 }
 
 #listing-override .ln-widgetContent td>a>img {
   width: 100%;
 }
 
-/* Footer */
+// Footer
 .footer {
   background-color: #ffffff;
   color: #1c487c;
@@ -300,6 +259,29 @@ header .blue-outline .center-child:last-child {
     height: 105px;
   }
 
+  #listing-override .ln-widgetContent td {
+    border-bottom: 3px solid #1c487c;
+    //padding: 32px 32px 32px 0;
+  }
+
+  #listing-override .ln-widgetBox .ln-widgetContent tr .col1,
+  #listing-override .ln-widgetBox .ln-widgetContent tr .col2,
+  #listing-override .ln-widgetBox .ln-widgetContent tr .col3 {
+    display: table-cell;
+  }
+
+  #listing-override .ln-widgetBox .ln-widgetContent tr .col1 {
+    width: 33%;
+  }
+
+  #listing-override .ln-widgetBox .ln-widgetContent tr .col2 {
+    width: 52%;
+  }
+
+  #listing-override .ln-widgetBox .ln-widgetContent tr .col3 {
+    width: 15%;
+  }
+
   .footer {
     padding: 0;
     height: 172px;
@@ -325,30 +307,12 @@ header .blue-outline .center-child:last-child {
     padding: 0;
     max-width: 202px;
   }
-
 }
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-
-/*
- * Hide visually and from screen readers
- */
-
+// Helper classes
 .hidden {
   display: none !important;
 }
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
 
 .visuallyhidden {
   border: 0;
@@ -362,14 +326,7 @@ header .blue-outline .center-child:last-child {
   position: absolute;
   width: 1px;
   white-space: nowrap;
-  /* 1 */
 }
-
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
@@ -384,32 +341,14 @@ header .blue-outline .center-child:last-child {
   white-space: inherit;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
 .invisible {
   visibility: hidden;
 }
 
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
 .clearfix:before,
 .clearfix:after {
   content: " ";
-  /* 1 */
   display: table;
-  /* 2 */
 }
 
 .clearfix:after {
