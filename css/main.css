@@ -251,7 +251,7 @@ header .blue-outline .center-child:last-child {
   }
 
   header .logo {
-    padding: 5px 0 0 0;
+    padding: 2px 0 0 25px;
   }
 
   header .blue-outline {
@@ -261,7 +261,6 @@ header .blue-outline .center-child:last-child {
 
   #listing-override .ln-widgetContent td {
     border-bottom: 3px solid #1c487c;
-    //padding: 32px 32px 32px 0;
   }
 
   #listing-override .ln-widgetBox .ln-widgetContent tr .col1,
