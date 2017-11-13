@@ -62,6 +62,7 @@ header {
 header .logo {
   display: inline-block;
   max-width: 320px;
+  padding-bottom: 25px;
 }
 
 header .blue-outline {
@@ -69,22 +70,24 @@ header .blue-outline {
 }
 
 header .blue-outline .center-child {
-  border-right: 5px solid #1c487c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: 5px solid #1c487c;
 }
 
-header .blue-outline .center-child:last-child {
-  border-right: none;
+header .blue-outline .center-child:first-child {
+  border-left: none;
 }
 
 #listing-override .ln-widgetBox {
   font-family: 'Montserrat', sans-serif;
   background-color: transparent;
   border: none;
-  padding-top: 220px;
+  padding-top: 75px;
 }
 
 #listing-override .ln-widgetBox>h2 {
-  margin-left: 35px;
+  margin: 0 35px;
   display: inline-block;
   width: auto;
   color: #f8f9fd;
@@ -165,7 +168,6 @@ header .blue-outline .center-child:last-child {
   width: 100%;
 }
 
-
 /* Footer */
 
 .footer {
@@ -221,8 +223,17 @@ header .blue-outline .center-child:last-child {
     height: 105px;
   }
 
+  header .blue-outline .center-child {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   #listing-override .ln-widgetContent td {
     border-bottom: 3px solid #1c487c;
+  }
+
+  #listing-override .ln-widgetBox {
+    padding-top: 220px;
   }
 
   #listing-override .ln-widgetBox .ln-widgetContent tr .col1,
