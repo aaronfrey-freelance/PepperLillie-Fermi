@@ -1,9 +1,4 @@
-// Base styles
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
+/* Base styles */
 
 ::-moz-selection {
   background: #b3d4fc;
@@ -15,37 +10,10 @@ html {
   text-shadow: none;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
+/* Custom styles */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-textarea {
-  resize: vertical;
-}
-
-// Custom styles
 .container-fluid {
-  padding: 0 25px;
+  padding: 0 40px;
 }
 
 .center-parent {
@@ -64,7 +32,7 @@ textarea {
   white-space: normal !important;
   transition: all 0.5s;
   background-color: transparent;
-  border: 2px solid #5e3548;
+  border: 2px solid #5e3548 !important;
   border-radius: 0;
   font-size: 16px;
   text-transform: uppercase;
@@ -74,20 +42,19 @@ textarea {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  border: 2px solid #5e3548;
   background-color: #5e3548;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   background: url(../img/bg_fade.jpg) no-repeat top center;
+  line-height: 1.2;
 }
 
 header {
   background-color: rgba(255, 255, 255, 0.9);
   color: #1c487c;
   font-size: 13px;
-  line-height: 1.2;
   padding: 32px 0;
   text-align: center;
 }
@@ -95,7 +62,6 @@ header {
 header .logo {
   display: inline-block;
   max-width: 320px;
-  padding: 5px 0 25px 0;
 }
 
 header .blue-outline {
@@ -147,10 +113,6 @@ header .blue-outline .center-child:last-child {
   display: block;
 }
 
-#listing-override .ln-widgetBox .ln-widgetContent tr .col2 {
-  line-height: 1.2;
-}
-
 #listing-override .ln-widgetBox .ln-widgetContent tr .col2 .name a {
   font-size: 31px;
   font-weight: 600;
@@ -173,7 +135,6 @@ header .blue-outline .center-child:last-child {
 #listing-override .ln-widgetBox .ln-widgetContent tr .col2 p {
   color: #333333;
   font-size: 15.5px;
-  line-height: 1.2;
 }
 
 #listing-override .ln-widgetBox .ln-widgetContent tr .col3 .stats {
@@ -204,12 +165,13 @@ header .blue-outline .center-child:last-child {
   width: 100%;
 }
 
-// Footer
+
+/* Footer */
+
 .footer {
   background-color: #ffffff;
   color: #1c487c;
   font-size: 13px;
-  line-height: 1.2;
   padding: 15px 0;
 }
 
@@ -251,7 +213,7 @@ header .blue-outline .center-child:last-child {
   }
 
   header .logo {
-    padding: 2px 0 0 25px;
+    padding: 2px 0 0 0;
   }
 
   header .blue-outline {
@@ -306,50 +268,4 @@ header .blue-outline .center-child:last-child {
     padding: 0;
     max-width: 202px;
   }
-}
-
-// Helper classes
-.hidden {
-  display: none !important;
-}
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
-}
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  -webkit-clip-path: none;
-  clip-path: none;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-  white-space: inherit;
-}
-
-.invisible {
-  visibility: hidden;
-}
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
 }
