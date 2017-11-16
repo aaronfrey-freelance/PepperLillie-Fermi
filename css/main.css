@@ -10,8 +10,6 @@
   text-shadow: none;
 }
 
-
-
 /* Custom styles */
 
 .container-fluid {
@@ -81,11 +79,30 @@ header .blue-outline .center-child:first-child {
   border-left: none;
 }
 
+.welcome .welcome-content {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 25px 0;
+}
+
+.welcome .welcome-content h2 {
+  color: #1c487c;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.welcome .welcome-content p {
+  color: #333333;
+  font-size: 12px;
+}
+
 #listing-override .ln-widgetBox {
   font-family: 'Montserrat', sans-serif;
   background-color: transparent;
   border: none;
-  padding-top: 75px;
 }
 
 #listing-override .ln-widgetBox>h2 {
@@ -163,8 +180,6 @@ header .blue-outline .center-child:first-child {
 #listing-override .ln-widgetContent td>a>img {
   width: 100%;
 }
-
-
 
 /* Footer */
 
@@ -247,6 +262,17 @@ header .blue-outline .center-child:first-child {
   header .blue-outline .center-child {
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+  .welcome {
+    float: right;
+  }
+
+  .welcome .welcome-content {
+    text-align: left;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
   }
 
   #listing-override .ln-widgetContent td {
