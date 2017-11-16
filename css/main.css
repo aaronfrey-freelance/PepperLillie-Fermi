@@ -45,6 +45,25 @@
   background-color: #5e3548;
 }
 
+.btn-default {
+  min-width: 200px;
+  background-color: #1c487c;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 12px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 7px 25px 6px;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  background-color: #1c487c;
+  color: #ffffff;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background: url(../img/bg_fade.jpg) no-repeat top center;

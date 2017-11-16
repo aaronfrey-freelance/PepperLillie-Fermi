@@ -13,6 +13,7 @@
       <div class="welcome-content">
         <h2>Welcome to Fermi Realty</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="/about" class="btn btn-default">Learn More About Us</a>
       </div>
     </div>
 
