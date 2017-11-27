@@ -40,7 +40,7 @@
 
             <div class="content-block">
 	            <h3>Leasing Services</h3>
-	            <p>Effective leasing of commercial real estate requires thoughtful research, marketing, and planning as well as a dedicated team to properly position the property and attract quality tenants. Effective landlord representation will minimize the time that a property remains vacant and maximize your return on your investment.</p>
+	            <p>Effective leasing of commercial real estate requires thoughtful research, marketing, and planning as well as a dedicated team to properly position the property and attract quality tenants. Professional landlord representation will minimize the time that a property remains vacant and maximize your return on your investment.</p>
 	          </div>
 
 	          <div class="content-block">

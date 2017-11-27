@@ -21,7 +21,7 @@
         <div class="col-xs-6 col-sm-3 col-md-1 center-child">
           Julie Foyle <br>
           Fermi Realty, LLC <br>
-          215.508.2210
+          215.422.3760
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-2 text-center center-child">

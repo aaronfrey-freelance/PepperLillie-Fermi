@@ -12,7 +12,6 @@
     <div class="welcome col-sm-6 col-md-5 col-lg-4">
       <div class="welcome-content">
         <h2>Welcome to Fermi Realty</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <a href="about.php" class="btn btn-default">Learn More About Us</a>
       </div>
     </div>

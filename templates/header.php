@@ -15,13 +15,13 @@
           <div class="blue-outline clearfix center-parent">
             <div class="col-xs-6 col-sm-3 center-child">
               2929 Walnut Street <br>
-              Suite 1560 <br>
+              Suite 1540 <br>
               Philadelphia, PA 19104
             </div>
             <div class="col-xs-6 col-sm-3 center-child">
               Julie Foyle <br>
               Fermi Realty, LLC <br>
-              215.508.2210
+              215.422.3760
             </div>
             <div class="col-sm-6 text-center center-child hidden-xs">
               <a
