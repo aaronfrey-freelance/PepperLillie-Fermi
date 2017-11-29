@@ -7,7 +7,7 @@
       <div class="footer-container center-parent">
 
         <div class="col-xs-12 col-sm-4 col-md-2 text-center center-child">
-          <a href="/" class="logo">
+          <a href="http://fermirealty.com/" class="logo">
             <img src="img/logo.png" alt="Fermi Logo" class="img-responsive">
           </a>            
         </div>

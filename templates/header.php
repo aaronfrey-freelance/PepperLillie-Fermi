@@ -5,7 +5,7 @@
     <div class="row">
 
       <div class="col-sm-4">
-        <a href="http://demo.pepperlillie.com/fermi" class="logo">
+        <a href="http://fermirealty.com/" class="logo">
           <img src="img/logo.png" alt="Fermi Logo" class="img-responsive">
         </a>
       </div>

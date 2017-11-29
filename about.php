@@ -11,7 +11,7 @@
 
     <div class="welcome col-sm-6 col-md-5 col-lg-4">
       <div class="welcome-content">
-        <a href="http://demo.pepperlillie.com/fermi" class="btn btn-default">Back to Home</a>
+        <a href="http://fermirealty.com/" class="btn btn-default">Back to Home</a>
       </div>
     </div>
 
